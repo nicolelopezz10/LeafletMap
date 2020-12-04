@@ -41,13 +41,38 @@ p{
  }
 
  #films {
-   width: 100%;
+   width: 800px;
    height: 600px;
    border: 1px solid #ccc;
    display: block;
    margin: auto;
 
   }
+
+  #paragraph {
+    width: 800px;
+  }
+
+
+
+
+
+
+
+ @media screen and (max-width: 810px) {
+   #film {
+     width: 100%;
+     height: 600px;
+     border: 1px solid #ccc;
+}
+
+#paragraph {
+  width: 100%;
+}
+
+
+
+}
 
  @media screen and (max-width: 500px) {
 
@@ -58,14 +83,3 @@ p{
      display: block;
      margin-left: auto;
      margin-right: auto;
-
- }
-
- #film {
-   width: 100%;
-   height: 600px;
-   border: 1px solid #ccc;
-   display: block;
-   margin: auto;
-
-  }
